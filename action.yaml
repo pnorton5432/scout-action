@@ -87,6 +87,9 @@ inputs:
   exit-code:
     required: false
     description: Return exit code '2' if vulnerability changes are detected
+  exit-on:
+    required: false
+    description: "(compare only) Return exit code '2' if a condition worsens, options are: vulnerability, policy"
 
   sarif-file:
     required: false
